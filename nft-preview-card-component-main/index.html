@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="card">
+        <div class="image-card card-content">
+          <img
+            src="images\image-equilibrium.jpg"
+            alt="ethereum-image"
+            class="image-ethereum"
+          />
+          <div class="view-container">
+            <img src="images\icon-view.svg" alt="View imgage">
+          </div>
+        </div>
+        <h2 class="hover-effect card-content">Equilibrium #3429</h2>
+
+        <p class="card-content">
+          Our Equilibrium collection promotes <br />
+          balance and calm.
+        </p>
+        <div class="price-time card-content">
+          <div class="eth">
+            <img
+              src="images\icon-ethereum.svg"
+              alt="icon-ethereum"
+              class="icons-image"
+            />
+            <h3 id="cyan-bg">0.041 ETH</h3>
+          </div>
+          <div class="time">
+            <img
+              src="images\icon-clock.svg"
+              alt="icon-clock"
+              class="icons-image"
+            />
+            <h3 id="bg-blue">3 days left</h3>
+          </div>
+        </div>
+        <hr class="card-content" />
+        <div class="profile-section card-content">
+          <img
+            src="images\image-avatar.png "
+            alt="Jules-Wyvern"
+            class="profile-pic"
+          />
+          <p id="profile-id">
+            Creation of<a href="#" class="hover-effect"> Jules Wyvern </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/FavourEzuzu" target="_blank">Ezuzu Favour</a
+        >.
+      </div>
+    </div>
+  </body>
+</html>
