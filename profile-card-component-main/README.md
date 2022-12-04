@@ -23,7 +23,7 @@ A profile card challenge from Frontend Mentor
 
 ### Screenshot
 
-![Desktop View](/images/Screenshot-desktop.png)
+![Desktop View](./images/Screenshot-desktop.png)
 ![Mobile View](./images/Screenshot-mobile.png)
 ![Smaller View](./images/Screenshot-1024px.png)
 
