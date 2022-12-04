@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile View](/images/Screenshot.jpg)
+![Mobile View](./images/Screenshot.jpg)
 
 ### Links
 
