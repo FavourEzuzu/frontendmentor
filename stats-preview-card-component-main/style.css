@@ -17,7 +17,7 @@ main {
   max-width: 1440px;
   display: grid;
   place-content: center;
-  margin: 100px auto;
+  margin: 130px auto 50px auto;
   padding: 0 100px;
 }
 .card {
@@ -33,6 +33,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 20px 100px;
+  padding-top: 60px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
