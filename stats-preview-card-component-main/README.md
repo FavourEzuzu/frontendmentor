@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/FavourEzuzu/frontendmentor/tree/main/stats-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://fancy-paletas-8932a0.netlify.app/)
 
 ## My process
 
