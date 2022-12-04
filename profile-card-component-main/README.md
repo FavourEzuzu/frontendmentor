@@ -17,6 +17,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Overview
 A profile card challenge from Frontend Mentor
+
 ### The challenge
 
 - Build out the project to the designs provided
