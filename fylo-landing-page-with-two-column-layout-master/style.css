@@ -7,7 +7,8 @@
 }
 body {
     height: 100vh;
-    line-height: 1.6;
+    line-height: 1.2;
+    font-family: "Open sans", sans-serif;
 }
 header {
     width: 100%;
@@ -16,7 +17,19 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+.mobile-curve {
+    display: none;
+}
+h1 {
+    font-size: 35px;
+}
+h1, h2, h3 {
+    font-family: "Raleway", sans-serif;
+}
 .fill-container {
+    width: 100%;
+}
+.pic-curve {
     width: 100%;
 }
 .flexdisplay {
@@ -33,13 +46,24 @@ header {
 .img_illus{
     width: 100%;
 }
+#worksflyo {
+    color: hsl(170, 45%, 43%);
+}
+#worksflyo:hover {
+    color: hsla(170, 45%, 43%, 0.8);
+}
 #email {
     padding: 10px;
 }
 .submit-btn {
+    cursor: pointer;
     border: none;
     background-color: hsl(224, 93%, 58%);
     padding: 10px;
+    width: 60%;
+}
+.submit-btn:hover {
+    background-color: hsla(224, 93%, 58%, 0.8);
 }
 form{
     display: flex;
@@ -56,8 +80,10 @@ form{
     width: 60%;
 }
 #submit-btn {
+    cursor: pointer;
     width: 40%;
 }
+
 .section2 {
     background-color: hsl(240, 75%, 98%);
 }
@@ -128,6 +154,13 @@ footer {
     header {
         padding: 30px;
     }
+    .desktop-curve {
+        display: none;
+    }
+    .mobile-curve {
+        display: block;
+        width: 100%;
+    }
     .fill-container {
         width: 100%;
     }
@@ -150,6 +183,9 @@ footer {
         width: 100%;
     }
     #submit-btn {
+        width: 100%;
+    }
+    .submit-btn {
         width: 100%;
     }
     .section3 {
